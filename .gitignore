@@ -1,0 +1,24 @@
+# Do not accidentally publish private course/project source or models.
+src/
+models/
+data/
+workspace/
+ros2_ws/
+build/
+install/
+log/
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
+*.bag
+*.db3
+*.mcap
+*.ttt
+.env
+.env.*
+__pycache__/
