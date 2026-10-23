@@ -2,7 +2,7 @@
 
 **Multi-model imitation learning, sensor-based localization, and autonomous shoreline navigation in simulation**
 
-**Fall 2025 · Georgia Tech-Europe · Machine Learning for Robotics · Three-person team project**
+**Fall 2025 · Georgia Tech-Europe · Machine Learning for Robotics · CS7644 project**
 
 **Technologies:** ROS 2 · CoppeliaSim · Python/C++ · scikit-learn · Convolutional Neural Networks · Keras
 
@@ -90,7 +90,7 @@ Validation set:
 
 An arm-mounted camera feeds a convolutional neural network trained from demonstrated arm movements. The controller predicts one of **nine discrete classes**, representing combinations of lateral and vertical arm-tip commands.
 
-The team iterated on demonstration collection after observing cases where the arm extended too far and interfered with vehicle motion. Training examples were supplemented with recovery actions, and the simulated arm/vehicle motion speeds were adjusted to improve coordination.
+We  iterated on demonstration collection after observing cases where the arm extended too far and interfered with vehicle motion. Training examples were supplemented with recovery actions, and the simulated arm/vehicle motion speeds were adjusted to improve coordination.
 
 ### 3. Vision-based vehicle steering
 
@@ -122,20 +122,35 @@ Training data was expanded with recovery demonstrations from the terrain side of
     └── README.md
 ```
 
+## 🎥 Project Demonstrations
 
-### Treasure Localization Demo 
+### 1. Treasure Localization
 
-Neural-network distance estimation and spatial voting
-for localizing buried objects.
+Neural-network distance estimation and spatial voting for
+accurately localizing buried objects.
 
-[▶ Watch Treasure Localization Demo](./videos/treasure-localization.mp4)
+<p align="center">
+  <img src="./assets/visualization.gif" width="750" alt="Treasure Localization Demo">
+</p>
 
-### Autonomous Navigation Demo 
+<p align="center">
+  <a href="https://youtu.be/1eaPQyqI7f4">▶ Watch Full Treasure Localization Demo on YouTube</a>
+</p>
 
-CNN-based vehicle steering and robotic arm control
-along the terrain boundary.
+---
 
-https://github.com/user-attachments/assets/YOUR-SECOND-VIDEO-ID
+### 2. Autonomous Navigation
+
+CNN-based vehicle steering and robotic arm control for
+autonomously following the terrain boundary.
+
+<p align="center">
+  <img src="./assets/navigation.gif" width="750" alt="Autonomous Navigation Demo">
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/8dqPJ8IfNJI">▶ Watch Full Autonomous Navigation Demo on YouTube</a>
+</p>
 
 ## Project Context
 
