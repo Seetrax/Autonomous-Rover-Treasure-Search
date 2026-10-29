@@ -1,7 +1,5 @@
 # Do not accidentally publish private course/project source or models.
-src/
-models/
-data/
+
 workspace/
 ros2_ws/
 build/
